@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+.box {
+	border: 5px solid red;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	display: box;
+	line-clamp: 10;
+	box-orient: vertical;
+}
